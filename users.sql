@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: May 16, 2024 at 10:25 AM
+-- Generation Time: May 16, 2024 at 10:40 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -49,7 +49,8 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`, `role`, `profile_image`)
 (6, 'shane14', 'shane14@gmail.com', '$2y$10$4hMzfi7pch9.ruI6YTICgOu4FQfJ3ShdjOtjpEbJNhWZ4LwmcWkD6', 'Company', NULL),
 (7, 'test1', 'test1@gmail.com', '$2y$10$iMhgh3SPaH6tzk7uOGlEdOOL1hzucTr0aefJ6Aauyv1Hh8wcrVTG.', 'Customer', NULL),
 (8, 'hai', 'hai@gmail.com', '$2y$10$nIy0pFmYX2Lhc3DIubUoHeO5TxeiRWBXdnkPx9g.gTvPkhE4abgDa', 'Customer', NULL),
-(9, 'test', 'test2@test.com', '$2y$10$uYDQGwa7CWXsxpTSh5j3tuQ2.azmw4A101phJYhO6gISP6Sjqg8TO', 'Company', NULL);
+(9, 'test', 'test2@test.com', '$2y$10$uYDQGwa7CWXsxpTSh5j3tuQ2.azmw4A101phJYhO6gISP6Sjqg8TO', 'Company', NULL),
+(11, 'hello', 'hello@gmail.com', '$2y$10$OZQmtIOy452Oze4gRwcl2.ljc7BmNSioFIOmDia.D8UFGbIglrwE.', 'Customer', NULL);
 
 --
 -- Indexes for dumped tables
@@ -70,7 +71,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
