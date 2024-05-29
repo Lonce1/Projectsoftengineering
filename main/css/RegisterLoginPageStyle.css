@@ -68,7 +68,7 @@
     content: '';
     height: 2px;
     width: 0%;
-    background-color: lightblue;
+    background-color: #ffffff;
     display: block;
     margin: auto;
     transition: 0.4s;
@@ -91,11 +91,11 @@
 }
 
 .btn{
-    background-color:  #2196F3;
+    background-color: #009bd6;
 }
 
 .btn:hover{
-    background-color: #2962ff;
+    background-color: #00b8ff;
 }
 
 .delete-btn{
