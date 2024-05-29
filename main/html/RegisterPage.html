@@ -18,20 +18,21 @@
         </div>
     </div>
     <div class="form-container">
-        <form action="" method="post" enctype="multipart/form-data">
-            <h3>register</h3>
-            <input type="text" name="name" placeholder="enter username" class="box" required>
-            <input type="email" name="email" placeholder="enter email" class="box" required>
-            <input type="password" name="password" placeholder="enter password" class="box" required>
-            <input type="password" name="cpassword" placeholder="confirm password" class="box" required>
-            <select name="role" id="0" name="user type" placeholde="user type" class="box" required>
+        <form action="config.php" method="post" enctype="multipart/form-data">
+            <h3>Register</h3>
+            <input type="text" name="name" placeholder="Enter username" class="box" required>
+            <input type="email" name="email" placeholder="Enter email" class="box" required>
+            <input type="password" name="password" placeholder="Enter password" class="box" required>
+            <input type="password" name="cpassword" placeholder="Confirm password" class="box" required>
+            <select name="role" class="box" required>
                 <option value="" disabled selected>Choose role</option>
                 <option value="Company">Company</option>
                 <option value="Customer">Customer</option>
             </select>
             <input type="file" class="box" accept="image/jpg, image/jpeg, image/png">
-            <input type="submit" value="register now" class="btn">
-            <p>already have an account? <a href="LoginPage.html">login now</a></p>
+            <input type="hidden" name="register" value="1">
+            <input type="submit" value="Register Now" class="btn">
+            <p>Already have an account? <a href="LoginPage.html">Login now</a></p>
         </form>
     </div>
 </body>
