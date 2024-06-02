@@ -6,24 +6,17 @@
 
 /* ---- banner ---- */
 
-.banner{
+/* .banner{
     width: 100%;
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-<<<<<<< HEAD
-    url("../../Image/pexels-tima-miroshnichenko-5380642.jpg");
-=======
-    url("/Image/pexels-tima-miroshnichenko-5380642.jpg");
->>>>>>> origin/main
+    url("./pexels-tima-miroshnichenko-5380642.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
-}
+} */
 
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/main
 nav{
     display: flex;
     padding: 2% 6%;
