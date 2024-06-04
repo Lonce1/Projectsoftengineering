@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 04, 2024 at 12:24 PM
+-- Generation Time: Jun 04, 2024 at 01:46 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -51,8 +51,7 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`, `role`, `profile_image`)
 (8, 'hai', 'hai@gmail.com', '$2y$10$nIy0pFmYX2Lhc3DIubUoHeO5TxeiRWBXdnkPx9g.gTvPkhE4abgDa', 'Customer', NULL),
 (9, 'test', 'test2@test.com', '$2y$10$uYDQGwa7CWXsxpTSh5j3tuQ2.azmw4A101phJYhO6gISP6Sjqg8TO', 'Company', NULL),
 (11, 'hello', 'hello@gmail.com', '$2y$10$OZQmtIOy452Oze4gRwcl2.ljc7BmNSioFIOmDia.D8UFGbIglrwE.', 'Customer', NULL),
-(13, 'wen1', 'wen1@test.com', '$2y$10$n6lqfrqajbvzG4/nMJaoieZlggwZIERXpvkHOREbvd7ts3bCffpRK', 'Company', NULL),
-(14, 'wen2', 'wen2@gmail.com', '$2y$10$uigy4JfIv5GEPO/WxebKruFoIBQ7pUF9AnMj9F9ECDeoBU7uRp062', 'Company', NULL);
+(13, 'wen1', 'wen1@test.com', '$2y$10$n6lqfrqajbvzG4/nMJaoieZlggwZIERXpvkHOREbvd7ts3bCffpRK', 'Company', NULL);
 
 --
 -- Indexes for dumped tables
