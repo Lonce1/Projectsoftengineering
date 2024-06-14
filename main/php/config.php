@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -52,14 +54,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["login"])) {
     $user = $result->fetch_assoc();
     if (password_verify($password, $user['password'])) {
       // Password is correct, login successful
+      // Store user name in session
+      $_SESSION['username'] = $user['name'];
+      $_SESSION['role'] = $user['role'];
+
+      // Password is correct, login successful
       // Check user role and redirect accordingly
       if ($user['role'] == 'Company') {
         // Redirect to CompanyHomePage.html
-        header("Location: ../html/CompanyHomePage.html");
+        header("Location: ../html/CompanyHomePage.php");
         exit(); 
       } elseif ($user['role'] == 'Customer') {
         // Redirect to UserHomePage.html
-        header("Location: ../html/UserHomePage.html");
+        header("Location: ../html/UserHomePage.php");
         exit(); 
       } 
     } else {
