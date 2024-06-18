@@ -32,7 +32,7 @@ $username = $_SESSION['username'];
 
             <div class="box">
                 <a href="./CompanyViewingApplicantPage.html">
-                    <img src="../../Image/worker.png">
+                    <img src="../../Image/workers.png">
                 </a>
                 <h3>View Applicant Profile</h3>
                 <h5>Find the perfect candidate</h5>
